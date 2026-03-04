@@ -25,12 +25,20 @@ The system leverages the geometric relationship between the visible feature poin
 ### Visualization Guide
 - **Orange Points:** 오프셋 계산의 기준이 되는 특징점
 - **Red Lines:** 특징점에서 차량 중심까지의 오프셋 벡터 
-- **Green Boxes:** 최종 보정된 3D Bounding Box
+- **White Boxes:** 원본 딥러닝 모델의 3D BBox 결과 (Baseline)
+- **Green Boxes:** 최종 보정된 3D Bounding Box (Proposed)
 
 ---
 
 ## Results
 
+### Demo Video
+[![Watch the video](https://img.shields.io/badge/YouTube-Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=xFNa5rvF5lM)
+
+- **White Boxes:** Original deep learning results
+- **Green Boxes:** Refined results after our geometry-based correction
+
+### Visualization Steps
 | 1. 시뮬레이터 차량 배치 (Simulator) | 2. 이미지 상의 3D BBox (Image) |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/8e975bd6-4195-4c5d-9c57-072b3f3b9ce4" width="450"/> | <img src="https://github.com/user-attachments/assets/4e3c0370-0af6-4d5e-a38d-e5545b422eea" width="450"/> |
