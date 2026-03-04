@@ -31,13 +31,13 @@ The system leverages the geometric relationship between the visible feature poin
 
 ## Results
 
-| 1. Algorithm Overview | 2. Feature Extraction |
+| 1. 시뮬레이터 차량 배치 | 2. 이미지 상의 3D BBox |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/4e3c0370-0af6-4d5e-a38d-e5545b422eea" width="450"/> | <img src="https://github.com/user-attachments/assets/0139795d-a2a9-488f-bbf7-27c67f4ba351" width="450"/> |
+| <img src="https://github.com/user-attachments/assets/8e975bd6-4195-4c5d-9c57-072b3f3b9ce4" width="450"/> | <img src="https://github.com/user-attachments/assets/4e3c0370-0af6-4d5e-a38d-e5545b422eea" width="450"/> |
 
-| 3. Geometric Refinement | 4. Final Result in Environment |
+| 3. 3D BBox 탑뷰 (Top View) | 4. 3D BBox 프론트뷰 (Front View) |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/89d6f7cf-9f4d-4c95-b66f-17adc4d0b88b" width="450"/> | <img src="https://github.com/user-attachments/assets/8e975bd6-4195-4c5d-9c57-072b3f3b9ce4" width="450"/> |
+| <img src="https://github.com/user-attachments/assets/0139795d-a2a9-488f-bbf7-27c67f4ba351" width="450"/> | <img src="https://github.com/user-attachments/assets/89d6f7cf-9f4d-4c95-b66f-17adc4d0b88b" width="450"/> |
 
 ---
 
