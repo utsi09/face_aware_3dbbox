@@ -4,9 +4,9 @@
 
 ---
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=utsi09.autonomous_vehicle_monitor&color=blue)
-![Stars](https://img.shields.io/github/stars/utsi09/autonomous_vehicle_monitor?style=flat-square&color=yellow)
-![Forks](https://img.shields.io/github/forks/utsi09/autonomous_vehicle_monitor?style=flat-square&color=lightgrey)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=utsi09.face_aware_3dbbox&color=blue)
+![Stars](https://img.shields.io/github/stars/utsi09/face_aware_3dbbox?style=flat-square&color=yellow)
+![Forks](https://img.shields.io/github/forks/utsi09/face_aware_3dbbox?style=flat-square&color=lightgrey)
 
 
 ## Reference & Inspiration
