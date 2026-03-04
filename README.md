@@ -22,12 +22,10 @@ The system leverages the geometric relationship between the visible feature poin
 
 보정 알고리즘의 핵심은 특징점으로부터 차량 중심까지의 **오프셋(Offset)**을 계산하여 기하학적으로 정렬하는 것입니다.
 
-
-
-### Visualization Guide:
-- <span style="color: #ff9900">●</span> **Orange Points:** 오프셋 계산의 기준이 되는 특징점 (Feature points for offset calculation)
-- <span style="color: #ff0000">━</span> **Red Lines:** 특징점에서 차량 중심까지의 오프셋 벡터 (Calculated offset vectors to the vehicle center)
-- <span style="color: #00ff00">■</span> **Green Boxes:** 최종 보정된 3D Bounding Box (Refined 3D Bounding Box results)
+### Visualization Guide
+- **Orange Points:** 오프셋 계산의 기준이 되는 특징점 (Feature points for offset calculation)
+- **Red Lines:** 특징점에서 차량 중심까지의 오프셋 벡터 (Calculated offset vectors to the vehicle center)
+- **Green Boxes:** 최종 보정된 3D Bounding Box (Refined 3D Bounding Box results)
 
 ---
 
@@ -43,4 +41,5 @@ The system leverages the geometric relationship between the visible feature poin
 
 ---
 
+## Troubleshooting
 If the bridge (e.g., CARLA-ROS bridge) does not broadcast TF data, please **uncomment** the `robot_state_publisher` node in your launch file to enable manual TF broadcasting.
