@@ -4,6 +4,11 @@
 
 ---
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=utsi09.autonomous_vehicle_monitor&color=blue)
+![Stars](https://img.shields.io/github/stars/utsi09/autonomous_vehicle_monitor?style=flat-square&color=yellow)
+![Forks](https://img.shields.io/github/forks/utsi09/autonomous_vehicle_monitor?style=flat-square&color=lightgrey)
+
+
 ## Reference & Inspiration
 - **Base Paper:** [3D Bounding Box Estimation Using Deep Learning and Geometry (arXiv:1612.00496)](https://arxiv.org/abs/1612.00496)
 - **Base Repository:** [skhadem/3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
