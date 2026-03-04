@@ -5,7 +5,7 @@
 ---
 
 ## Reference & Inspiration
-- **Original Paper:** [3D Bounding Box Estimation Using Deep Learning and Geometry (arXiv:1612.00496)](https://arxiv.org/abs/1612.00496)
+- **Base Paper:** [3D Bounding Box Estimation Using Deep Learning and Geometry (arXiv:1612.00496)](https://arxiv.org/abs/1612.00496)
 - **Base Repository:** [skhadem/3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
 
 ---
