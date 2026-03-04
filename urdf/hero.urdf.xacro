@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<robot name="carla_hero_sensors">
+
+  <link name="hero"/>
+
+  <link name="base_link"/>
+
+  <joint name="hero_to_base" type="fixed">
+    <parent link="hero"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="lidar_link"/>
+  <joint name="base_to_lidar" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 2.4" rpy="0 0 0"/>
+  </joint>
+
+  <link name="rgb_front_link"/>
+  <joint name="base_to_rgb_front" type="fixed">
+    <parent link="base_link"/>
+    <child link="rgb_front_link"/>
+    <origin xyz="2 0 2" rpy="0 0 0"/>
+  </joint>
+
+  <link name="rgb_left_link"/>
+  <joint name="base_to_rgb_left" type="fixed">
+    <parent link="base_link"/>
+    <child link="rgb_left_link"/>
+    <origin xyz="0 1 1" rpy="0 0 1.57079632679"/>
+  </joint>
+
+  <link name="rgb_right_link"/>
+  <joint name="base_to_rgb_right" type="fixed">
+    <parent link="base_link"/>
+    <child link="rgb_right_link"/>
+    <origin xyz="0 -1 1" rpy="0 0 -1.57079632679"/>
+  </joint>
+
+  <link name="rgb_back_link"/>
+  <joint name="base_to_rgb_back" type="fixed">
+    <parent link="base_link"/>
+    <child link="rgb_back_link"/>
+    <origin xyz="-2 0 2" rpy="0 0 3.14159265359"/>
+  </joint>
+
+</robot>

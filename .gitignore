@@ -1,0 +1,17 @@
+# Large files and datasets
+face_aware_3dbbox/kitti/
+face_aware_3dbbox/weights/
+face_aware_3dbbox/original/
+*.onnx
+*.engine
+*.pt
+
+# Python build and cache
+__pycache__/
+build/
+install/
+log/
+.pytest_cache/
+
+# OS files
+.DS_Store
