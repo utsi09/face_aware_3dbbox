@@ -33,10 +33,12 @@ The system leverages the geometric relationship between the visible feature poin
 ## Results
 
 ### Demo Video
-[![Watch the video](https://img.shields.io/badge/YouTube-Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=xFNa5rvF5lM)
+[![Face-Aware 3D BBox Demo](https://github.com/user-attachments/assets/c57a0535-beeb-45d3-85f0-fb9ff1600ce5)](https://youtu.be/xFNa5rvF5lM)
 
 - **White Boxes:** Original deep learning results
 - **Green Boxes:** Refined results after our geometry-based correction
+
+---
 
 ### Visualization Steps
 | 1. 시뮬레이터 차량 배치 (Simulator) | 2. 이미지 상의 3D BBox (Image) |
