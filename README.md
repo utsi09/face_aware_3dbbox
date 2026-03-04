@@ -25,7 +25,6 @@ The system leverages the geometric relationship between the visible feature poin
 ### Visualization Guide
 - **Orange Points:** 오프셋 계산의 기준이 되는 특징점
 - **Red Lines:** 특징점에서 차량 중심까지의 오프셋 벡터 
-- **White Boxes:** 원본 딥러닝 모델의 3D BBox 결과 (Baseline)
 - **Green Boxes:** 최종 보정된 3D Bounding Box (Proposed)
 
 ---
