@@ -39,7 +39,7 @@ The system leverages the geometric relationship between the visible feature poin
 ### Demo Video
 [![Face-Aware 3D BBox Demo](https://github.com/user-attachments/assets/c57a0535-beeb-45d3-85f0-fb9ff1600ce5)](https://youtu.be/xFNa5rvF5lM)
 
-- **White Boxes:** Original deep learning results
+- **White Boxes:** Original deep learning results (Base Repository)
 - **Green Boxes:** Refined results after our geometry-based correction
 
 ---
